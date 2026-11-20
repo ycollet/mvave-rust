@@ -4,6 +4,9 @@ A native Rust terminal editor for the **M-VAVE Chocolate Plus**
 (`FootCtrlPlus`, FootControl2 configuration layout). Runs on macOS and Linux,
 without CubeSuite, Wine, or a browser.
 
+For a section-by-section walkthrough, setting explanations and examples, see
+the [TUI guide](TUI.md).
+
 **Status:** implements the publicly documented configuration layout and protocol.
 Automated coverage uses a simulated pedal, not physical hardware. Real Bluetooth
 communication, firmware-specific behavior, and persistence across power cycles
