@@ -1,0 +1,21 @@
+[package]
+name = "mwave-rust"
+version = "0.1.0"
+edition = "2024"
+description = "Native terminal configuration editor for the M-VAVE Chocolate Plus"
+license = "MIT"
+
+[dependencies]
+anyhow = "1"
+async-trait = "0.1"
+btleplug = "0.13"
+clap = { version = "4", features = ["derive"] }
+crossterm = "0.29"
+futures = "0.3"
+midir = "0.11"
+ratatui = "0.30"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "sync", "time"] }
+uuid = "1"
+
+[dev-dependencies]
+tempfile = "3"
